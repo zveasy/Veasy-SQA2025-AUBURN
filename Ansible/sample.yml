@@ -1,0 +1,3 @@
+- hosts: all
+  vars:
+  password: {{ vault_secret }}
